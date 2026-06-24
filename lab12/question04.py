@@ -1,0 +1,5 @@
+num1 = float(input("Digite o primeiro número:"))
+num2 = float(input("Digite o segundo número:"))
+diferenca = abs(num1 - num2)
+result = round(diferenca, 2)
+print("A diferença entre os números é", result)
